@@ -5,9 +5,9 @@ import java.time.LocalDateTime;
 
 public class Narudzba {
     private int id;
-    private String broj_narudbe;
+    private String broj_narudzbe;
     private int klijent_id;
-    private LocalDate datum_narudbe;
+    private LocalDate datum_narudzbe;
     private LocalDate datum_isporuke;
     private String vrsta_robe;
     private double kolicina;
@@ -21,8 +21,8 @@ public class Narudzba {
 
     public Narudzba() {}
 
-    public Narudzba(String broj_narudbe, int klijent_id) {
-        this.broj_narudbe = broj_narudbe;
+    public Narudzba(String broj_narudzbe, int klijent_id) {
+        this.broj_narudzbe = broj_narudzbe;
         this.klijent_id = klijent_id;
         this.aktivan = true;
         this.status = "Novoprijavljena";
@@ -32,14 +32,14 @@ public class Narudzba {
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
 
-    public String getBroj_narudbe() { return broj_narudbe; }
-    public void setBroj_narudbe(String broj_narudbe) { this.broj_narudbe = broj_narudbe; }
+    public String getBroj_narudzbe() { return broj_narudzbe; }
+    public void setBroj_narudzbe(String broj_narudzbe) { this.broj_narudzbe = broj_narudzbe; }
 
     public int getKlijent_id() { return klijent_id; }
     public void setKlijent_id(int klijent_id) { this.klijent_id = klijent_id; }
 
-    public LocalDate getDatum_narudbe() { return datum_narudbe; }
-    public void setDatum_narudbe(LocalDate datum_narudbe) { this.datum_narudbe = datum_narudbe; }
+    public LocalDate getDatum_narudzbe() { return datum_narudzbe; }
+    public void setDatum_narudzbe(LocalDate datum_narudzbe) { this.datum_narudzbe = datum_narudzbe; }
 
     public LocalDate getDatum_isporuke() { return datum_isporuke; }
     public void setDatum_isporuke(LocalDate datum_isporuke) { this.datum_isporuke = datum_isporuke; }
